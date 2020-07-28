@@ -11,7 +11,7 @@
           </div>
         </div>
         <div class="col-md-7">
-          test
+          <NewsDetails/>
         </div>
       </div>
     </div>
@@ -20,7 +20,7 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import NewsDetails from '@/components/NewsDetails.vue'
 import axios from 'axios'
 
 export default {
@@ -32,7 +32,7 @@ export default {
     }
   },
   components: {
-    HelloWorld
+    NewsDetails
   },
   methods: {
     newsDetail(id) {
