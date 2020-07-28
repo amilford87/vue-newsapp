@@ -11,7 +11,7 @@
           </div>
         </div>
         <div class="col-md-7">
-          <NewsDetails/>
+          <NewsDetails v-bind:newsdetail="newsdetail"/>
         </div>
       </div>
     </div>
